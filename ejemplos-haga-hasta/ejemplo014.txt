@@ -7,12 +7,30 @@
 3. suma, i[0, n]
 4. salida, x(10)[{a-z}]
 5. suma <-- 0
-6. Haga_Hasta
+6. salida = "si"
+6. Mientras (salida!="si") 
 7.     Escribir "Ingrese un número por teclado"
 8.     Leer valor_entrada
 9.     suma <-- suma + valor_entrada
 10.    Escribir "Escriba si para salir del proceso"
 11.    Leer salida
-12. Fin Haga_Hasta (salida!="si") 
+12. Fin Mientras 
 13. Escribir suma
 14. Fin
+
+
+// explicar la variación de cadenaFinal
+cadenaFinal = ""+0+"\n" =>"0\n"
+cadenaFinal = "0\n"+ 1 + "\n" => "0\n1\n"
+cadenaFinal = "0\n1\n" + 2 + "\n" => "0\n1\n2\n"
+cadenaFinal = "0\n1\n2\n" + 3 + "\n" => "0\n1\n2\n3\n"
+cadenaFinal = "0\n1\n2\n3\n" + 4 + "\n" => "0\n1\n2\n3\n4\n"
+cadenaFinal = "0\n1\n2\n3\n4\n" + 5 + "\n" => "0\n1\n2\n3\n4\n5\n" 
+
+// pantalla
+0
+1
+2
+3
+4
+5
